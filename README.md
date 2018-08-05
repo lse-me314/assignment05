@@ -8,7 +8,7 @@ No special resources for this topic beyond the ones already listed on the course
 
 ### Assignment
 
-Work with the file [me314-assignment5-LASTNAME-FIRSTNAME.Rmd](me314-assignment5-LASTNAME-FIRSTNAME.Rmd).
+Work with the file [ME314-assignment5-LASTNAME-FIRSTNAME.Rmd](ME314-assignment5-LASTNAME-FIRSTNAME.Rmd).
 
 The TAs will spend a large amount of time on this today in class.
 
@@ -16,5 +16,4 @@ The TAs will spend a large amount of time on this today in class.
 ### Solutions
 
 Solution to Assignment 5 as:
-*  [md rendered as html](https://github.com/lse-me314/assignment05/blob/master/ME314_assignment5_solution.md) 
 *  [RMarkdown](ME314_assignment5_solution.Rmd)  
