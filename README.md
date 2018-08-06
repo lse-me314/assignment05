@@ -8,12 +8,19 @@ No special resources for this topic beyond the ones already listed on the course
 
 ### Assignment
 
+#### If you wish to take the mid-term assignment for credit:
+
+Work with the mid-term instructions [here](https://lse-me314.github.io/midterm-2018/). 
+
+
+#### Otherwise
+
 Work with the file [ME314_assignment5_LASTNAME_FIRSTNAME.Rmd](ME314_assignment5_LASTNAME_FIRSTNAME.Rmd).
 
 The TAs will spend a large amount of time on this today in class.
 
 
-### Solutions
+### Solution
 
 Solution to Assignment 5 as:
 *  [RMarkdown](ME314_assignment5_solution.Rmd)  
