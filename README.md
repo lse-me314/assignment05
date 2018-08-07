@@ -24,3 +24,4 @@ The TAs will spend a large amount of time on this today in class.
 
 Solution to Assignment 5 as:
 *  [RMarkdown](ME314_assignment5_solution.Rmd)  
+*  [HTML](ME314_assignment5_solution.html)
