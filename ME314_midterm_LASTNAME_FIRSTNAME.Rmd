@@ -1,11 +1,11 @@
 ---
-title: "Midterm Assignemnt, ME314 2019"
+title: "Midterm Assignemnt, ME314 2021"
 output: html_document
 ---
  
 ![](images/lse-logo.jpg)
 
-#### Summer School 2019 midsession examination  
+#### Summer School 2021 midsession examination  
 
 # ME314 Introduction to Data Science and Machine Learning 
 
