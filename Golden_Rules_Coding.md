@@ -117,6 +117,16 @@ Rushing compromises your ability to learn how to code properly, without cutting 
 
 It also means that when you are stuck earlier on, the instructors are available to help you. We can't, however, come to your rescue at 2am the night before the deadline. 
 
+## Learning to Troubleshoot
+
+Documentation in R is great, but sometimes it can be too abstract. Learning how to effectively google any error warnings you have, or for external resources that might make things "click" for you and how you learn is important. Sites like stackoverflow and stackexchange are filled with users asking questions as to why their code isn't working, and you may find googling your exact error message leads to someone else asking what it means. 
+
+So, don't feel bad that you need to google! There's a reason this popular programming meme exists:
+
+![](images/meme.png)
+
+**Note:** If you are answering by using someone else's code, it's important to cite your source, otherwise it is potentially code plagiarism. 
+NEVER post questions from assignments or exams online to get someone else to answer them for you either! 
 
 
 ## Last but not least... when in doubt, Restart R and make sure R and RStudio are up to date!
