@@ -15,10 +15,10 @@ output: html_document
 ### Instructions to candidates  
 
 * Complete the assignment by adding your answers directly to the RMarkdown document, knitting the document, and submitting the HTML file to Moodle.   
-* Time allowed: due 19:00 on Wednesday, 7th August 2019.  
+* Time allowed: due 20:00 on Tuesday,29 June 2021.  
 * Submit the assignment via [Moodle](https://shortcourses.lse.ac.uk/course/view.php?id=158).
 
-## Question 1:
+## Question 1 (60 points):
 
 This question should be answered using the `Carseats` data set, which is part of the **ISLR** package. This data contains simulated data set containing sales of child car seats at 400 different stores.
 
@@ -33,7 +33,7 @@ data("Carseats", package = "ISLR")
 3.  Which of these two models is preferable, and why?  
 
 
-## Question 2:
+## Question 2 (40 points):
 
 You will need to load the core library for the course textbook and any other libraries you find suitable to answer the question:
 ```{r}
@@ -46,15 +46,13 @@ This question should be answered using the `Weekly` data set, which is part of t
 
 1.   Perform exploratory data analysis of the `Weekly` data (produce some numerical and graphical summaries). Discuss any patterns that emerge. 
 
-2. Fit a logistic regression with `Direction` as the response and different combinations of lag variables plus `Volume` as predictors. Use the period from 1990 to 2008 as your training set and 2009-2010 as your test set. Produce a summary of results. 
+2. Fit a linear regression with `Direction` as the response and different combinations of lag variables plus `Volume` as predictors. Use the period from 1990 to 2008 as your training set and 2009-2010 as your test set. Produce a summary of results. 
 
     Do any of the predictors appear to be statistically significant in your training set? If so, which ones?
+    
+    What might be wrong about fitting a linear regression here?
 
-3.  From your test set, compute the confusion matrix, and calculate accuracy, precision, recall and F1. 
+3.  (Extra credit: up to 10 points) From your test set, compute a logistic regression with `Direction` as the response, and compute the confusion matrix, and calculate accuracy, precision, recall and F1. 
      
     Explain what the confusion matrix is telling you about the types of mistakes made by logistic regression, and what can you learn from additional measures of fit like accuracy, precision, recall, and F1.
 
-4.  (Extra credit) Experiment with alternative classification methods. 
-
-    Present the results of your experiments reporting method, associated confusion matrix, and measures of fit on the test set like accuracy, precision, recall, and F1.
-    

@@ -1,4 +1,5 @@
 # Golden Rules of Coding (for Classwork)
+
 ###### Sarah Jewett | PhD Candidate | London School of Economics
 
 
@@ -55,6 +56,7 @@ You can then use knitr syntax to make each chunk behave a certain way:
 ------------------------
 
 ## Good Coding Practices
+
 There are packages like lintr() that help with spelling and continuity in code style within R. 
 There are also style guides you can follow:
 
@@ -62,10 +64,12 @@ There are also style guides you can follow:
 
 
 ##### Naming Variables
+
 Try to name your variables and data something descriptive and avoid meaningless numbers. As your code gets more complicated, it's vital not to have to keep scrolling up to remember what variable is doing or means what. 
 
 
 ##### Comment Your Code
+
 Think about how hard it is to learn new code without any comments, and imagine having to do that over and over. 
 
   * Comenting your code ensures:
@@ -121,7 +125,7 @@ It also means that when you are stuck earlier on, the instructors are available 
 
 Documentation in R is great, but sometimes it can be too abstract. Learning how to effectively google any error warnings you have, or for external resources that might make things "click" for you and how you learn is important. Sites like stackoverflow and stackexchange are filled with users asking questions as to why their code isn't working, and you may find googling your exact error message leads to someone else asking what it means. 
 
-So, don't feel bad that you need to google! There's a reason this popular programming meme exists:
+So, don't feel bad that you need to Google! There's a reason this popular programming meme exists:
 
 ![](images/meme.png)
 
