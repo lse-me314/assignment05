@@ -5,7 +5,7 @@
 ### Instructions to candidates  
 
 * Complete the assignment by adding your answers directly to the RMarkdown document, knitting the document, and submitting the HTML file to Moodle.  
-* Time allowed: Due 19:00 on Wednesday, 7th August 2019.
+* Time allowed: Due 19:00 on Tuesday, 20:00 29 June 2021.
 * The mid-term will count for 25\% of the final grade.
 
 ### Where to find the assignment
