@@ -19,4 +19,4 @@ Submit the assignment via [Moodle](https://shortcourses.lse.ac.uk/course/view.ph
 
 ### Resources
 
-No special resources for this topic beyond the ones already listed on the course handout.
+See Sarah's "[Golden Rules of Coding](Golden_Rules_coding.md)" for suggestions on how to best format your answers. 
