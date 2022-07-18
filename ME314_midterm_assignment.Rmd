@@ -102,4 +102,4 @@ Note: To calculate predicted probabilities, you can use the `predict()` function
 
 #### d. Estimate a new logistic regression model, with the same covariates you included in (a) before but here also add `country_code`. Calculate the predicted probability of voting to leave the EU for every observation in the data. For how many observations is this probability greater than .5? 
 
-#### e. Which countries have respondents with a probability of voting to leave of greater than .5 (according to your model in part c)?
+#### e. Which countries have respondents with a probability of voting to leave of greater than .5 (according to your model in part d)?
