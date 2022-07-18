@@ -9,6 +9,11 @@
 * The mid-term will count for 25\% of the final grade.
 
 
+### Where to find the assignment
+
+You should clone this repository to get started with this lab.  The URL to clone is [https://github.com/lse-me314/assignment05](https://github.com/lse-me314/assignment05).  **You can find detailed instructions on how to do this [here](https://lse-me314.github.io/instructions).**
+
+
 ### How to submit the assignment
 
 Submit the assignment via [Moodle](https://shortcourses.lse.ac.uk/course/view.php?id=158).
