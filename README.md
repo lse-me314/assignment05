@@ -6,6 +6,8 @@
 
 * Complete the assignment by adding your answers directly to the RMarkdown document, knitting the document, and submitting the HTML file to Moodle.  
 
+* RENAME THE FILE using your LSE ID number to replace "LSE-ID-NUMBER" in the assignment filename!  Otherwise we will have trouble knowing you are and this will delay the publication of marks.
+
 * Time allowed: Due 19:00 on Wednesday, 19 July 2023, 15.00 (3pm).
 
 * The mid-term will count for 25\% of the final grade.
@@ -27,4 +29,4 @@ Submit the assignment via [Moodle](https://shortcourses.lse.ac.uk/course/view.ph
 
 *  [Mid-term review](Midterm_Review.md) by Sarah Jewett, with some tips for answering the Midterm questions.
 
-*  "[Golden Rules of Coding](Golden_Rules_coding.md)" by Sarah Jewett, for suggestions on how to best format your answers. 
+*  "[Golden Rules of Coding](Golden_Rules_Coding.md)" by Sarah Jewett, for suggestions on how to best format your answers. 
