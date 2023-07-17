@@ -5,7 +5,7 @@
 ### Instructions to candidates  
 
 * Complete the assignment by adding your answers directly to the RMarkdown document, knitting the document, and submitting the HTML file to Moodle.  
-* Time allowed: Due 19:00 on Wednesday, 7th August 2019.
+* Time allowed: Due 19:00 on Wednesday, 19 July 2023, 15.00 (3pm).
 * The mid-term will count for 25\% of the final grade.
 
 ### Where to find the assignment
@@ -19,4 +19,6 @@ Submit the assignment via [Moodle](https://shortcourses.lse.ac.uk/course/view.ph
 
 ### Resources
 
-See Sarah's "[Golden Rules of Coding](Golden_Rules_coding.md)" for suggestions on how to best format your answers. 
+*  [Classification coding demo](Classification-coding-demo.md) by Michael Jacobs, for a demonstration of the ways you will need to evaluate classification for one of the mid-term questions.
+
+*  "[Golden Rules of Coding](Golden_Rules_coding.md)" by Sarah Jewett, for suggestions on how to best format your answers. 
