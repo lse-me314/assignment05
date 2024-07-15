@@ -4,6 +4,8 @@
 
 ### Instructions to candidates  
 
+* The midterm is described in `ME314_midterm_YOURIDNUMBER.Rmd`
+
 * Complete the assignment by adding your answers directly to the RMarkdown document, knitting the document, and submitting the HTML file to Moodle.  
 
 * RENAME THE FILE using your LSE ID number to replace "YOURIDNUMBER" in the assignment filename!  Otherwise we will have trouble knowing you are and this will delay the publication of marks.
