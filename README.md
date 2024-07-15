@@ -6,9 +6,9 @@
 
 * Complete the assignment by adding your answers directly to the RMarkdown document, knitting the document, and submitting the HTML file to Moodle.  
 
-* RENAME THE FILE using your LSE ID number to replace "LSE-ID-NUMBER" in the assignment filename!  Otherwise we will have trouble knowing you are and this will delay the publication of marks.
+* RENAME THE FILE using your LSE ID number to replace "YOURIDNUMBER" in the assignment filename!  Otherwise we will have trouble knowing you are and this will delay the publication of marks.
 
-* Time allowed: Due Wednesday, 17 July 2024, 15.00 (3pm).
+* Time allowed: Due Wednesday, 17 July 2024, 14.00 (2pm).
 
 * The mid-term will count for 25\% of the final grade.
 
