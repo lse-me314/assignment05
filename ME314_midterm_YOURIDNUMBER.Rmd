@@ -1,0 +1,107 @@
+---
+title: "Midterm Assignment, ME314 2024"
+output: html_document
+---
+
+#### Summer School 2024 midsession examination  
+
+# ME314 Introduction to Data Science and Machine Learning 
+
+## Suitable for all candidates
+
+### Instructions to candidates  
+
+* Complete the assignment by adding your answers directly to the RMarkdown document, knitting the document, and submitting the HTML file to Moodle.   
+* Submit the assignment via [Moodle](https://shortcourses.lse.ac.uk/course/view.php?id=158).
+* Deadline: Wednesday 17th July, 2pm.
+
+## Question 1 (70 points)
+
+This question should be answered using the `covid_country_data.csv` data set. This data contains observations from 180 countries, and includes information on various indicators which might be predictive of the severity of the COVID-19 pandemic in each country. The data includes the following variables:
+
+|Variable name|Description|
+|:------------|:------------------------------------------------|
+|`countryiso3`|Unique country identifier|
+|`country`|Country name|
+|`deaths_per_100k`|Total number of deaths recorded from COVID-19 per 100,000 people in the population|
+|`female_leader`|`TRUE` if the country has a female president or prime minister and `FALSE` otherwise|
+|`ghs_index`|The Global Health Security index score, a 2019 measure that aimed to predict how prepared each country was for handling epidemics and pandemics|
+|`gdp_percap`|GDP per capita in current US dollars, measured in 2016|
+|`pct_urban`|The percentage of the population living in urban agglomerations of more than 1 million, measured in 2016|
+|`health_gdp_pct`|Current health expenditure as a percentage of GDP, measured in 2016|
+|`democracy`|`TRUE` if the country is a democracy and `FALSE` otherwise (Polity IV, dichotomised at 6)|
+|`continent`|The continent in which the country is located|
+
+You can run the following line of code in R and this will load the data directly from the course website:
+
+```{r, echo=TRUE, eval = TRUE}
+covid_data <- read.csv("https://raw.githubusercontent.com/lse-me314/lse-me314.github.io/master/data/covid_country_data.csv")
+```
+
+#### a. Create a scatterplot of the `pct_urban` (x-axis) and `deaths_per_100k` (y-axis) variables in the data. Provide proper axis labels. Interpret the graph and report the correlation between these variables (if there is missing data, then you might need to include the `use = "complete.obs"` argument in the `cor()` function).
+
+#### b. Fit a regression model predicting `deaths_per_100k` using `pct_urban` and `female_leader` as predictors.  Interpret the coefficients and the $R^2$ from the regression (by explaining each in a few statements). 
+
+#### c. Fit a second model which includes the *interaction* between `pct_urban` and `female_leader`.  Interpret the coefficients in this new model. Does the effect pf `pct_urban` depend on whether a country has a female president or prime minister? 
+
+#### d. Are either of the two models you estimated preferable as a predictive model? Why?  
+
+#### e. Pick one further explanatory variable from the data to include in addition to the variables included in your answer to question (c). Interpret the relevant coefficient(s) on the new variable that you include and describe whether your new model improves on the predictive power of the two previous models. 
+
+## Question 2 (30 points)
+
+Can we predict whether individuals would like their country to leave the European Union? This question uses a dataset which includes several variables taken from the 2016 European Social Survey [(https://www.europeansocialsurvey.org)](https://www.europeansocialsurvey.org). The unit of analysis is individual respondents to a face-to-face survey. There are a total of 13075 observations in the data, with respondents surveyed in 17 different European countries. 
+
+The data includes the following variables:
+
+|**Variable**|**Description**|
+|---------------|-------------------------------------------------------------|
+|`country_code`|The country of the respondent|
+|`leave`|1 if the respondent would vote to leave the European Union in a referendum, 0 otherwise|
+|`gender`|Whether the respondent is male or female|
+|`age`|The age of the respondent (in years)|
+|`years_education`| The number of years of education the respondent has completed|
+|`unemployed`|1 if the respondent is unemployed, 0 otherwise|
+|`income`|1 if the respondent earns above the median income in their country, 0 otherwise|
+|`religion`|Categorical variable of the religion of the respondent|
+|`trade_union`|1 if the respondent is a member of a trade union, 0 otherwise|
+|`news_consumption`|Amount of time the respondent spends reading newspapers/online news each week (in minutes)|
+|`trust_people`|The degree to which the respondent trusts other people (0 = low trust, 10 = high trust)|
+|`trust_politicians`|The degree to which the respondent trusts politicians (0 = low trust, 10 = high trust)|
+|`past_vote`|1 if the respondent voted in the last general election in their country, 0 otherwise|
+|`immig_econ`|The respondent's view of the economic effects of immigration in their country (0 = Immigration is bad for the economy; 10 = Immigration is good for the economy)|
+|`immig_culture`|The respondent's view of the cultural effects of immigration in their country (0 = Immigration undermines the country's culture; 10 = Immigration enriches the country's culture)|
+|`country_attach`|The respondent's emotional attachment to their country (0 = Not at all emotionally attached; 10 = Very emotionally attached)|
+|`climate_change`|How worried the respondent is about climate change (1 = Not at all worried; 5 = Very worried)|
+|`imp_tradition`|How important the respondent feels it is to follow traditions and customs (1 = Very important; 6 = Not at all important)|
+|`imp_equality`|How important the respondent feels it is people are treated equally and have equal opportunities (1 = Very important; 6 = Not at all important)|
+|`eu_integration`|The respondent's views on European unification/integration (0 = "Unification has already gone too far"; 10 = "Unification should go much further")|
+|`train`|A variable indicating whether the respondent should be used in the training set (`TRUE`) or the test set (`FALSE`).|
+Table: ESS codebook
+
+You can run the following line of code in R and this will load the data directly from the course website:
+
+```{r, echo=TRUE, eval = TRUE}
+ess <- read.csv("https://raw.githubusercontent.com/lse-me314/lse-me314.github.io/master/data/ess.csv")
+```
+
+
+#### a. Fit a logistic regression with `leave` as the response and with `age`, `gender`, `years_education` and `income` as predictors. Produce a summary of results. For which predictors is the relationship with `leave` statistically significant?
+
+#### b. Calculate the predicted probability of voting to leave the EU for respondents with the following characteristics
+
+1. A 25-year old man, with above median income, and 10 years of education
+1. A 25-year old woman, with above median income, and 15 years of education
+1. A 65-year old woman, with below median income, and 8 years of education
+1. A 65-year old man, with below median income, and 12 years of education
+
+Which has the highest probability of voting to leave the EU?
+
+Note: To calculate predicted probabilities, you can use the `predict()` function with the argument `type = "response"`.
+
+#### c. Calculate the predicted probability of voting to leave the EU for every observation in the data. For how many observations is this probability greater than .5? 
+
+#### d. Estimate a new logistic regression model, with the same covariates you included in (a) before but here also add `country_code`. Calculate the predicted probability of voting to leave the EU for every observation in the data. For how many observations is this probability greater than .5? 
+
+
+#### e. Which countries have respondents with a probability of voting to leave of greater than .5 (according to your model in part c)?
