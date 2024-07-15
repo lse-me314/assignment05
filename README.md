@@ -8,7 +8,7 @@
 
 * RENAME THE FILE using your LSE ID number to replace "LSE-ID-NUMBER" in the assignment filename!  Otherwise we will have trouble knowing you are and this will delay the publication of marks.
 
-* Time allowed: Due Wednesday, 17 July 2024, 19.00 (7pm).
+* Time allowed: Due Wednesday, 17 July 2024, 15.00 (3pm).
 
 * The mid-term will count for 25\% of the final grade.
 
